@@ -43,6 +43,7 @@ body {
   background: var(--very-pale-blue);
   margin-left: 2rem;
   margin-right: 2rem;
+  border-radius: 7.5px;
   height: 60px;
   align-items: center;
   font-size: 14px;
@@ -67,8 +68,8 @@ a {
   font-family: "Red Hat Display";
   font-weight: 700;
   color: var(--very-pale-blue);
-  border-radius: 7.5px;
   border: none;
+  border-radius: 7.5px;
   box-shadow: 3px 3px var(--very-pale-blue);
 }
 .payment,
