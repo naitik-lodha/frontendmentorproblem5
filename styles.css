@@ -1,0 +1,97 @@
+:root {
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --very-pale-blue: hsl(225, 100%, 94%);
+  --brightblue: hsl(245, 75%, 52%);
+}
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  font-family: "Red Hat Display";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 350px;
+  margin-top: 100px;
+  border-radius: 10px;
+  background: white;
+  font-size: 16px;
+}
+.illustration {
+  width: 350px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.heading {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-weight: 900;
+}
+.description {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: var(--desaturated-blue);
+  font-weight: 500;
+}
+.pricecontainer {
+  display: flex;
+  background: var(--very-pale-blue);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 60px;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.price {
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
+.cost {
+  color: var(--desaturated-blue);
+}
+
+a {
+  color: var(--brightblue);
+}
+.payment {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  background-color: var(--brightblue);
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  color: var(--very-pale-blue);
+  border-radius: 7.5px;
+  border: none;
+  box-shadow: 3px 3px var(--very-pale-blue);
+}
+.payment,
+.cancel,
+a:hover {
+  cursor: pointer;
+}
+.payment:hover {
+  background: var(--desaturated-blue);
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+}
+
+.cancel {
+  margin-top: 1.25rem;
+  color: var(--desaturated-blue);
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 900;
+  margin-bottom: 2.5rem;
+}
